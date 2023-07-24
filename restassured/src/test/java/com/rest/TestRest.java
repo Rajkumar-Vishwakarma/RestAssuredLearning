@@ -24,7 +24,7 @@ public class TestRest {
 		headers.add("Accept");
 		given().
 				baseUri("https://api.postman.com").
-				header("x-api-key","PMAK-62f4163fce6c223128f8daad-d2c7faefe758bc47248ef5f06b28cecd7b").
+				header("x-api-key","replaceme").
 				config(config.logConfig(LogConfig.logConfig().blacklistHeaders(headers))).
 				log().all().
 				
