@@ -21,12 +21,12 @@ public class RequestSpecificationExample {
 	public void beforeClass() {
 		/*requestSpecification = with().
 				baseUri("https://api.postman.com").
-				header("x-api-key","PMAK-62f4163fce6c223128f8daad-d2c7faefe758bc47248ef5f06b28cecd7b").
+				header("x-api-key","replaceme").
 				log().all();*/
 		
 		RequestSpecBuilder requestSpecBuilder = new RequestSpecBuilder();
 		requestSpecBuilder.setBaseUri("https://api.postman.com");
-		requestSpecBuilder.addHeader("x-api-key","PMAK-62f4163fce6c223128f8daad-d2c7faefe758bc47248ef5f06b28cecd7b");
+		requestSpecBuilder.addHeader("x-api-key","replaceme");
 		requestSpecBuilder.log(LogDetail.ALL);
 		requestSpecification = requestSpecBuilder.build();
 	}
