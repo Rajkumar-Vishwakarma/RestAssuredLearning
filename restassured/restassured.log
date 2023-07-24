@@ -1,0 +1,35 @@
+Request method:	GET
+Request URI:	https://postman-echo.com/get
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 12 Nov 2022 20:03:31 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 302
+Connection: keep-alive
+ETag: W/"12e-0ghoaggGb5Z7DpgdPT0+1yeoKoU"
+Vary: Accept-Encoding
+set-cookie: sails.sid=s%3AYyAxApZXFFa91S_2NUIxAwpSD6UMCcLI.fEfEfL3RiNpZf5bhG21d5GAj3LfZswr7W3QNqDCAvtM; Path=/; HttpOnly
+
+{
+    "args": {
+        
+    },
+    "headers": {
+        "x-forwarded-proto": "https",
+        "x-forwarded-port": "443",
+        "host": "postman-echo.com",
+        "x-amzn-trace-id": "Root=1-636ffc13-400a187f3b80c79d7d3c96f8",
+        "accept": "*/*",
+        "user-agent": "Apache-HttpClient/4.5.13 (Java/16.0.2)",
+        "accept-encoding": "gzip,deflate"
+    },
+    "url": "https://postman-echo.com/get"
+}
