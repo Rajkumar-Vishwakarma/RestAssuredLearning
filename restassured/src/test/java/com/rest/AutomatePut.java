@@ -21,7 +21,7 @@ public class AutomatePut {
 				
 		RequestSpecBuilder requestSpecBuilder = new RequestSpecBuilder().
 				setBaseUri("https://api.postman.com").
-				addHeader("x-api-key","PMAK-62f4163fce6c223128f8daad-d2c7faefe758bc47248ef5f06b28cecd7b").
+				addHeader("x-api-key","replaceme").
 				log(LogDetail.ALL).
 				setContentType(ContentType.JSON);
 		RestAssured.requestSpecification = requestSpecBuilder.build();
